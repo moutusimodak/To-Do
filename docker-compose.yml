@@ -2,6 +2,6 @@ version: "3.3"
 
 services:
   web:
-    build: .
+    image: moutusi10/todo:latest
     ports:
       - "80:80"
